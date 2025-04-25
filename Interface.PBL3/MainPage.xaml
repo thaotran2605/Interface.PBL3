@@ -1,0 +1,14 @@
+﻿<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Interface.PBL3.MainPage"
+    ControlTemplate="{StaticResource SharedPageTemplate}">
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+        <Label Text="Xin chào, Chúc bạn một ngày mới tốt lành"
+               FontSize="22"
+               TextColor="White"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center" />
+    </StackLayout>
+</ContentPage>
