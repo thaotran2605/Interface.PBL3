@@ -11,14 +11,14 @@ public partial class Templates : ResourceDictionary
         => await Shell.Current.GoToAsync("//MainPage");
 
     private async void OnOrderTapped(object sender, EventArgs e)
-        => await Shell.Current.GoToAsync("//OrderPage");
+        => await Shell.Current.GoToAsync("OrderPage");
 
     private async void OnOrderListTapped(object sender, EventArgs e)
-        => await Shell.Current.GoToAsync("//DSOrderPage");
+        => await Shell.Current.GoToAsync("DSOrderPage");
 
     private async void OnUuDaiTapped(object sender, EventArgs e)
-        => await Shell.Current.GoToAsync("//UuDaiPage");
+        => await Shell.Current.GoToAsync("UuDaiPage");
 
     private async void OnDoanhThuTapped(object sender, EventArgs e)
-        => await Shell.Current.GoToAsync("//DoanhThuPage");
+        => await Shell.Current.GoToAsync("DoanhThuPage");
 }
